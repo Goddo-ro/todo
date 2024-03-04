@@ -1,0 +1,19 @@
+.header {
+    border-bottom: 1px solid var(--gray);
+    padding: 12px 64px;
+}
+
+.header, 
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left {
+    gap: 12px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 34px;
+}

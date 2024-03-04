@@ -1,0 +1,17 @@
+.todo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    background-color: var(--red);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.todo_complited {
+    background-color: rgba(24, 119, 242, .3);
+}
+
+.todo_complited > p {
+    text-decoration: line-through;
+}

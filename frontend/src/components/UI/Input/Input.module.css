@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid var(--white);
+    border-radius: 13px;
+    padding: 16px;
+    background-color: var(--white);
+}
+
+.container_invalid {
+    border: 1px solid var(--red);
+}
+
+.input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 4px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: var(--gray);
+    opacity: 1;
+  }
+  
+.input::-ms-input-placeholder {
+    color: var(--gray);
+}
